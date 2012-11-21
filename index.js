@@ -20,9 +20,6 @@ var remote_host = nconf.get('remote_host'),
 	local_host = nconf.get('local_host'),
 	local_port = nconf.get('local_port');
 
-console.log(remote_host);
-process.exit(0);
-
 var remote_client = redis.createClient(remote_port, remote_host),
 	local_client = redis.createClient(local_port, local_host);
 
