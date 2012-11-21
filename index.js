@@ -24,7 +24,7 @@ var remote_client = redis.createClient(remote_port, remote_host),
 	local_client = redis.createClient(local_port, local_host);
 
 remote_client.send_command("psubscribe", ['*'], function(data){
-	remote_client.on('message', function(channel, message){
+	remote_client.on('pmessage', function(channel, message){
         local_client.publish(channel, message);
     });
 });
