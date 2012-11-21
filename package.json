@@ -11,7 +11,10 @@
   "scripts": {
     "test": "grunt test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "redis": "0.8.2",
+    "nconf": "0.6.5"
+    },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {

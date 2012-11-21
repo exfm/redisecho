@@ -17,6 +17,7 @@
     "eqnull": false,
     "evil": false,
     "expr": false,
+    "node": true,
     "forin": false,
     "immed": false,
     "latedef": false,
