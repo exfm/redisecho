@@ -1,0 +1,20 @@
+{
+  "author": " <>",
+  "name": "redisecho",
+  "description": "simple redis echo",
+  "version": "0.0.0",
+  "homepage": "http://github.com/exfm/redisecho",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/exfm/redisecho.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
